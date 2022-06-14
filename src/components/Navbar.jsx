@@ -14,7 +14,9 @@ export const Navbar = () => {
           <li className="p-4">Home</li>
           <li className="p-4">Company</li>
           <li className="p-4">Resources</li>
-          <li className="p-4">Contact</li>
+          <button className="bg-[#ffffff] hover:bg-[#00df9a] text-black ml-8 rounded-md font-medium w-[180px]  mx-auto my-2 px-4 py-3">
+            Contact
+          </button>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -34,7 +36,10 @@ export const Navbar = () => {
             <li className="p-4 border-b border-gray-600 ">Home</li>
             <li className="p-4 border-b border-gray-600">Company</li>
             <li className="p-4 border-b border-gray-600">Resources</li>
-            <li className="p-4">Contact</li>
+
+            <button className="bg-[#ffffff] hover:bg-[#00df9a] text-black mt-7 ml-2 rounded-md font-medium w-[180px]  mx-auto my-2 px-4 py-3">
+              Contact
+            </button>
           </ul>
         </div>
       </div>
